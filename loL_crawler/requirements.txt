@@ -1,0 +1,9 @@
+aiohttp
+aiotieba
+tqdm
+emoji
+emojiswitch
+beautifulsoup4
+lxml
+# 可选 - 仅在需要解析新版 B 站弹幕 proto 时使用
+protobuf

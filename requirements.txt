@@ -1,0 +1,25 @@
+# LoL SFT 微调依赖
+
+# 核心训练框架
+llamafactory>=0.9.0
+
+# 量化支持
+bitsandbytes>=0.43.0
+accelerate>=0.27.0
+
+# Flash Attention (可选，加速训练)
+# flash-attn>=2.5.0  # 需要单独安装: pip install flash-attn --no-build-isolation
+
+# 模型下载
+modelscope>=1.12.0
+
+# 数据处理
+tqdm
+numpy
+
+# 爬虫依赖 (loL_crawler)
+aiohttp>=3.9.0
+aiotieba>=3.4.0
+protobuf>=4.25.0
+emoji>=2.10.0
+python-dotenv>=1.0.0

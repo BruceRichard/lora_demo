@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (large binary weights)
+models/
+
+# Training outputs
+saves/
+
+# External datasets (large)
+datasets/
+
+# Crawler build artifacts & logs
+loL_crawler/data/
+loL_crawler/logs/
+
+# OS
+.DS_Store
+Thumbs.db
